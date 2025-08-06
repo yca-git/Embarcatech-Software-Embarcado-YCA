@@ -32,7 +32,7 @@ void clear_display(){
 // Função para exibir animação de apresentação
 void print_apresentacao(){ 
     
-    const char *words[]= {"SMART", "SPACE", "PARKING"};
+    const char *words[]= {"TAREFA", "DOIS", "YCA"};
     
     ssd1306_draw_empty_square(&disp, 0, 0, 120, 63);
     ssd1306_show(&disp);

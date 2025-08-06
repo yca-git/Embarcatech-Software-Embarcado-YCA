@@ -20,17 +20,16 @@ int main() {
     const char *client_id = "yuri";
     const char *topic_status_temp = "ha/desafio09/yuri.aquino/temp"; 
     const char *topic_status_joy = "ha/desafio09/yuri.aquino/joy";
-    const char *user_mqtt = ""; // Coloque aqui o usuário do MQTT
-    const char *pass_mqtt = ""; // Coloque aqui a senha do MQTT
+    const char *user_mqtt = "desafio09"; // Coloque aqui o usuário do MQTT
+    const char *pass_mqtt = "desafio09.laica"; // Coloque aqui a senha do MQTT
     const char *wifi_ssid = ""; //Coloque aqui o SSID do wifi
-    const char *wifi_pass = ""; //Coloque aqui a senha do wifi
+    const char *wifi_pass = "dkjwjo48"; //Coloque aqui a senha do wifi
 
     // Estados de controle
     bool wifi_connected = false;
     bool mqtt_connected = false;
     char *last_state_joy = "CENTRO"; //ponteiro para string
 
-    printf("=== INICIANDO SISTEMA SMART PARKING ===\n");
 
     while (1) {
         // PASSO 1: CONECTAR AO WIFI
